@@ -772,6 +772,10 @@ window.mapdata_hos_velen = {
 		],
 		label: $.t("hidden.label"),
 		popup: $.t("hidden.desc")
+	},{// NE Novigrad
+		coords: [[241.250, 93.844]],
+		label: $.t("hidden.label"),
+		popup: $.t("hidden.guarded", {monster: 'lvl 34<span> ' + $.t("v:monsters.drownedDead") + '</span>'})
 	},{ // S Novigrad
 		coords: [[154.313, 96.734]],
 		label: $.t("hidden.label"),
